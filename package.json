@@ -6,15 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "serve",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "compileDeploy" : "tsc && npm run depoly",
+    "deploy" : "compyfiles -f src/brower/*.html src/browser/*.css dist"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/vue-fontawesome": "^2.0.8",
     "axios": "^0.27.2",
+    "serve":"^10.14.21",
+    "copyfiles":"^2.1.1",
+    "typescript":"~3.0.0",
     "bootstrap": "^5.2.0",
     "digest": "^0.0.5",
     "jquery": "^3.6.0",

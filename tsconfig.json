@@ -23,5 +23,5 @@
         "typeRoots": ["./node_modules/@types", "./src/types"]
 	},
 	"exclude" : ["dist", "node_modules"],
-	"include" : ["src/**/*"]
+	"include" : ["src/**/*", "src/.src/bc101.ts", "src/.src/bc100.ts"]
 }
