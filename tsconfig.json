@@ -1,27 +1,12 @@
 {
-    "compilerOptions" : {
-        "noEmitOnError" : true,
-        "target":"es2017",
-        "watch":true,
-        "outDir":"./dist",
-        "lib":["dom","ES2017"],
-        "strict": true,
-        "strictPropertyInitialization": false, 
-        "noImplicitAny": true,
-        "noImplicitThis": true,
-        "alwaysStrict": true,
-        "strictNullChecks": true,
-        "strictFunctionTypes": true,
-        "module": "commonjs",                             
-        "rootDir": "./src",                            
-        "moduleResolution": "node",                  
-        "esModuleInterop": true,                      
-        "skipLibCheck": true,                           
-        "forceConsistentCasingInFileNames": true,
-        "experimentalDecorators": true,
-        "emitDecoratorMetadata": true,
-        "typeRoots": ["./node_modules/@types", "./src/types"]
-	},
-	"exclude" : ["dist", "node_modules"],
-	"include" : ["src/**/*", "src/.src/bc101.ts", "src/.src/bc100.ts"]
-}
+    "compilerOptions": {
+      "sourceMap": true,
+      "outDir": "./dist",
+      "target": "es5",
+      "module": "es6",
+      "lib": [
+        "dom",
+        "es2017"
+      ]
+    }
+  }
